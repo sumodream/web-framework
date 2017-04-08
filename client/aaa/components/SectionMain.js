@@ -9,7 +9,7 @@ class SectionMain extends Component {
     render() {
         return (
             <section className={styles.sectionMain}>
-                aaa11
+                test
             </section>
         )
     }
