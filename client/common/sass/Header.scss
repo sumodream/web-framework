@@ -1,0 +1,43 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    width: 100%;
+
+    .left {
+        float: left;
+        width: 200px;
+        height: 60px;
+        background: #327eab;
+        line-height: 60px;
+
+        .span {
+            margin-left: 20px;
+            font-size: 20px;
+            color: #ffffff;
+            letter-spacing: 1.62px;
+            vertical-align: middle;
+        }
+    }
+    .right {
+        height: 60px;
+        margin-left: 200px;
+        background: #378cbe;
+        line-height: 60px;
+
+        .img {
+            float: right;
+            width: 32px;
+            height: 32px;
+            border-radius: 100%;
+            margin-top: 12px;
+            margin-right: 10px;
+        }
+        .description {
+            float: right;
+            margin-right: 10px;
+            color: #fff;
+        }
+    }
+}
