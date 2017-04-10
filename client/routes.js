@@ -29,20 +29,6 @@ const routes = {
                     callback(null, require('./about/containers/App'))
                 }, 'about')
             }
-        }, {
-            path: 'aaa',
-            getComponent(nextState, callback) {
-                require.ensure([], require => {
-                    callback(null, require('./aaa/containers/App'))
-                }, 'aaa')
-            }
-        }, {
-            path: 'Button',
-            getComponent(nextState, callback) {
-                require.ensure([], require => {
-                    callback(null, require('./Button/components/SectionMain'))
-                }, 'Button')
-            }
         }]
     }]
 }
