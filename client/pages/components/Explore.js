@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
-import styles from '../sass/SectionMain'
+import styles from '../sass/explore'
 
-class SectionMain extends Component {
+class Explore extends Component {
     constructor() {
         super()
     }
@@ -22,7 +22,7 @@ class SectionMain extends Component {
         const {userInfo} = this.props
 
         return (
-            <section className={styles.sectionMain}>
+            <section className={styles.explore}>
                 Explore
                 <a href="javascript:void(0)"
                     className={styles.btn}
@@ -41,4 +41,4 @@ class SectionMain extends Component {
     }
 }
 
-export default SectionMain
+export default Explore

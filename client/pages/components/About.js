@@ -1,18 +1,18 @@
 import React, {Component} from 'react'
-import styles from '../sass/SectionMain'
+import styles from '../sass/About'
 
-class SectionMain extends Component {
+class About extends Component {
     constructor() {
         super()
     }
 
     render() {
         return (
-            <section className={styles.sectionMain}>
+            <section className={styles.about}>
                 About
             </section>
         )
     }
 }
 
-export default SectionMain
+export default About
