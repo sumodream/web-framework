@@ -6,7 +6,6 @@ class Navbar extends Component {
     constructor() {
         super()
     }
-
     render() {
         return (
             <nav className={styles.navbar}>
