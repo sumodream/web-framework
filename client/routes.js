@@ -4,7 +4,6 @@ if (typeof require.ensure !== 'function') {
         callback(require)
     }
 }
-
 const routes = {
     childRoutes: [{
         path: '/',
@@ -36,6 +35,13 @@ const routes = {
                 require.ensure([], require => {
                     callback(null, require('./aaa/containers/App'))
                 }, 'aaa')
+            }
+        }, {
+            path: 'Button',
+            getComponent(nextState, callback) {
+                require.ensure([], require => {
+                    callback(null, require('./Button/components/SectionMain'))
+                }, 'Button')
             }
         }]
     }]

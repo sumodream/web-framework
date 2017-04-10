@@ -11,7 +11,7 @@ class Header extends Component {
         return (
             <header className={styles.header}>
                 <div className={styles.left}>
-                    <span className={styles.span}>reactBaseui</span>
+                    <span className={styles.span}>Baseui</span>
                 </div>
                 <div className={styles.right}>
                     <span className={styles.description}>Hello, world！</span>
