@@ -53,10 +53,6 @@ module.exports = {
       loader: 'html?minimize=false'
     }]
   },
-  devServer: {
-    hot: true,
-    inline: true
-  },
   resolve: {
     extensions: ['', '.js', '.json', '.scss']
   },
